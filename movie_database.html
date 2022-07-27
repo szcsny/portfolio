@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="https://kit.fontawesome.com/8d52e4664c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logo">
+                <p class="logo-name">SZCSNY</p>
+                <p class="logo-profession">&ltfrontend&gt</p>
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="index.html#footer" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Movie <strong>Database</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Create your own Watchlist</p>
+            <img src="img/movies.png" alt="" class="project__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>This project was a solo project at <strong>Scrimba</strong>. This meant that I only had the <strong>Figma</strong> and some description on how the app should function and from that I had to create the app basically from scratch. This was when I first learned about APIs and so this app uses the <strong>Open Movie Database</strong> API to find films.</p>
+            <p>While building this app I began to understand more about APIs, asynchronous functions and the local storage and how an app is actually built in the 'wild'.</p>
+            <p>With this very simple app you can create your own watchlist. You can search for any movie in existence and add them to your Watchlist. If you have watched them, you can remove them easily. This data is saved on your local storage.</p>
+            <a class="jump-to-page" href="https://szcsny.github.io/movie_database">Movie Database</a>
+        </div>
+        
+        
+        <!-- Contact -->
+        <footer class="footer" id="footer">
+            <a href="mailto:szecsenyiadam96@gmail.com" class="footer__link">szecsenyiadam96@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/szecsenyi19">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/adam-szcsny/">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/szcsny">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

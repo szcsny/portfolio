@@ -157,8 +157,7 @@ header {
 }
 
 .nav {
-    background: var(--clr-dark);
-    color: var(--clr-light);
+    display: none;
 }
 
 .nav__list {
@@ -186,6 +185,12 @@ header {
 }
 
 @media (min-width: 600px){
+    .nav {
+        display: block;
+        background: var(--clr-dark);
+        color: var(--clr-light);
+    }
+    
     .nav__link {
         font-size: 1rem;
         margin-left: 1em;
